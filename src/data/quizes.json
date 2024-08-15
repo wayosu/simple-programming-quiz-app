@@ -1,0 +1,737 @@
+[
+    {
+        "id": 1,
+        "title": "Basic Web Programming",
+        "desc": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus, accusantium temporibus iure delectus ut totam natus nesciunt ex?ducimus, enim.",
+        "img": "https://wallpaperaccess.com/full/1947484.jpg",
+        "level": "Beginner",
+        "questions": [
+            {
+                "id": 1,
+                "text": "What does HTML stand for?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "Hypertext Markup Language",
+                        "correct": true
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "Hypertext Markdown Language",
+                        "correct": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "Hyperloop Machine Language",
+                        "correct": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "Helicopters Terminals Motorboats Lamborginis",
+                        "correct": false
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "text": "What year was JavaScript launched?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "1996",
+                        "correct": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "1995",
+                        "correct": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "1994",
+                        "correct": true
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "none of the above",
+                        "correct": false
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "text": "What does CSS stand for?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "Cascading Style Sheet",
+                        "correct": true
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "Cascading Super Sheet",
+                        "correct": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "Cascading Style Sheep",
+                        "correct": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "Cascading Style Sheep",
+                        "correct": false
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "text": "What does PHP stand for?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "Hypertext PrePararel",
+                        "correct": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "Hypertext Programming",
+                        "correct": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "Hypertext Preprogramming",
+                        "correct": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "Hypertext Preprocessor",
+                        "correct": true
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "text": "What does SQL stand for?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "Structured Query Language",
+                        "correct": true
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "Stylish Question Language",
+                        "correct": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "Stylesheet Query Language",
+                        "correct": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "Statement Question Language",
+                        "correct": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "title": "Basic C++ Programming",
+        "desc": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus, accusantium temporibus iure delectus ut totam natus nesciunt ex?ducimus, enim.",
+        "img": "https://wallpaperaccess.com/full/6662732.png",
+        "level": "Beginner",
+        "questions": [
+            {
+                "id": 1,
+                "text": "Which of the following is a correct identifier in C++?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "7var_name",
+                        "correct": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "7VARNAME",
+                        "correct": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "VAR_1234",
+                        "correct": true
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "$var_name",
+                        "correct": false
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "text": "Which of the following is called address operator?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "&",
+                        "correct": true
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "*",
+                        "correct": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "+",
+                        "correct": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "-",
+                        "correct": false
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "text": "What are the actual parameters in C++?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "Parameters with which functions are called",
+                        "correct": true
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "Parameters with which variables are declared",
+                        "correct": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "Both A and B",
+                        "correct": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "None of the above",
+                        "correct": false
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "text": "A language which has the capability to generate new data types are called ...........",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "Extensible",
+                        "correct": true
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "Overloaded",
+                        "correct": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "Encapsulated",
+                        "correct": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "Reprehensible",
+                        "correct": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "title": "Programming Algorithms",
+        "desc": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus, accusantium temporibus iure delectus ut totam natus nesciunt ex?ducimus, enim.",
+        "img": "https://wallpaperaccess.com/full/2270728.jpg",
+        "level": "Intermediate",
+        "questions": [
+            {
+                "id": 1,
+                "text": "Which of the following is not a sorting algorithm?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "Bubble Sort",
+                        "correct": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "Merge Sort",
+                        "correct": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "Insertion Sort",
+                        "correct": true
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "Quick Sort",
+                        "correct": false
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "text": "Which of the following is not a search algorithm?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "Linear Search",
+                        "correct": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "Binary Search",
+                        "correct": true
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "Exponential Search",
+                        "correct": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "Ternary Search",
+                        "correct": false
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "text": "Which of the following is not a traversal algorithm?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "Inorder Traversal",
+                        "correct": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "Preorder Traversal",
+                        "correct": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "Postorder Traversal",
+                        "correct": true
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "Levelorder Traversal",
+                        "correct": false
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "text": "Which of the following is not a data structure?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "Stack",
+                        "correct": true
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "Queue",
+                        "correct": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "Linked List",
+                        "correct": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "Tree",
+                        "correct": false
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "text": "Print total-cost and display average are examples of statements that:",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "Assign Variables",
+                        "correct": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "Involves Arithmetic Operations",
+                        "correct": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "Input",
+                        "correct": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "Output",
+                        "correct": true
+                    }
+                ]
+            },
+            {
+                "id": 6,
+                "text": "In a flowchart terminators for start and stop are usually indicated by what shape?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "Circle",
+                        "correct": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "Square",
+                        "correct": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "Rhombus",
+                        "correct": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "Oval",
+                        "correct": true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "title": "Intermediate Data Science",
+        "desc": "lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, accusantium temporibus iure delectus ut totam natus nesciunt ex?ducimus, enim.",
+        "img": "https://wallpaperaccess.com/full/1704547.jpg",
+        "level": "Intermediate",
+        "questions": [
+            {
+                "id": 1,
+                "text": "What is the process of converting raw data into a structured format for analysis?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "Data Visualization",
+                        "correct": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "Data Wrangling",
+                        "correct": true
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "Data Mining",
+                        "correct": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "Data Inference",
+                        "correct": false
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "text": "hich of the following is not a supervised learning algorithm?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "Decision Trees",
+                        "correct": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "Linear Regression",
+                        "correct": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "K-Nearest Neighbors (KNN)",
+                        "correct": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "K-Means Clustering",
+                        "correct": true
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "text": "In data science, what does “EDA” stand for?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "Exploratory Data Analysis",
+                        "correct": true
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "Experimental Data Assessment",
+                        "correct": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "Essential Data Analytics",
+                        "correct": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "Extrapolated Data Arrangement",
+                        "correct": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "title": "Advanced Artificial Intelligence",
+        "desc": "lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, accusantium temporibus iure delectus ut totam natus nesciunt ex?ducimus, enim.",
+        "img": "https://wallpaperaccess.com/full/1398385.jpg",
+        "level": "Advanced",
+        "questions": [
+            {
+                "id": 1,
+                "text": "Which of the following architecture is also known as systolic arrays?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "MISD",
+                        "correct": true
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "SIMD",
+                        "correct": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "SISD",
+                        "correct": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "None of the above",
+                        "correct": false
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "text": "The correct ways to solve a problem of state-space search are?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "Forward from the initial state",
+                        "correct": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "Backward from the goal",
+                        "correct": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "Both A and B",
+                        "correct": true
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "None of the above",
+                        "correct": false
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "text": "The different types of machine learning are?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "Supervised",
+                        "correct": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "Unsupervised",
+                        "correct": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "Reinforcement",
+                        "correct": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "All of the above",
+                        "correct": true
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "text": "The measure of performance of an AI agent is measured using?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "Learning Agent",
+                        "correct": true
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "Changing Agent",
+                        "correct": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "Both A and B",
+                        "correct": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "None of the above",
+                        "correct": false
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "text": "The name of the Artificial Intelligence system developed by Daniel Bobrow was?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "BACON",
+                        "correct": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "SIMD",
+                        "correct": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "STUDENT",
+                        "correct": true
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "None of the above",
+                        "correct": false
+                    }
+                ]
+            }
+        ]
+    }
+]
