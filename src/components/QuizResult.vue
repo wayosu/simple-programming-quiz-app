@@ -39,6 +39,14 @@ onMounted(() => {
 onUnmounted(() => {
     resultBackgroundMusic.pause();
     resultBackgroundMusic.currentTime = 0;
+
+    // Clear confetti and text emojis immediately
+    confetti.reset(); // Stops any ongoing confetti effects
+    confetti.clear(); // Removes all confetti
+    
+    // Remove text emojis containers immediately
+    const textConfettiContainers = document.querySelectorAll('.textConfetti');
+    textConfettiContainers.forEach(container => container.remove());
 });
 
 function toggleMusic() {
@@ -72,7 +80,7 @@ function showBadScoreConfetti() {
 // Function to display text and emojis
 function showTextEmojis() {
     const container = document.createElement('div');
-    container.className = 'fixed inset-0 flex items-center justify-center pointer-events-none';
+    container.className = 'fixed inset-0 flex items-center justify-center pointer-events-none textConfetti';
     document.body.appendChild(container);
 
     const texts = ['😆', 'NOPE', 'FAIL', 'NICE TRY'];
@@ -106,6 +114,7 @@ function showTextEmojis() {
     <div class="flex justify-center w-[80%] mx-auto">
         <div class="p-4 text-center rounded-xl border border-gray-200 shadow-sm bg-white overflow-hidden">
             <span class="text-xl font-medium font-kanit">Your Result Score</span>
+            <!-- Display score after 7 seconds with the appropriate color and animation -->
             <h1 v-if="displayScore" :class="`text-5xl font-bold font-kanit ${scoreColor} fade-in-out`">{{ totalScore }}</h1>
             <p v-else class="text-5xl font-bold font-kanit text-gray-400">Loading...</p>
             <p class="mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla fugiat praesentium tempora voluptas fuga quia veritatis esse? Nihil, dolorum nobis.</p>
@@ -116,7 +125,7 @@ function showTextEmojis() {
             >
                 {{ isMusicPlaying ? 'Pause Music' : 'Play Music' }}
             </button>
-            <RouterLink :to="{ name: 'quizes' }" class="block mt-4 px-4 py-2 bg-gray-500 text-white font-kanit rounded-lg transition-all hover:bg-gray-600">Go to Quizes</RouterLink>
+            <RouterLink v-if="displayScore" :to="{ name: 'quizes' }" class="block mt-4 px-4 py-2 bg-gray-500 text-white font-kanit rounded-lg transition-all hover:bg-gray-600">Go to Quizes</RouterLink>
         </div>
     </div>
 </template>
