@@ -1,5 +1,5 @@
 <script setup>
-import { computed, ref } from 'vue';
+import { computed, onMounted, onUnmounted, ref } from 'vue';
 import { useRoute } from 'vue-router';
 import quizes from '../data/quizes.json';
 
@@ -22,6 +22,9 @@ const barPercentage = computed(() => {
     return `${Math.round(((currentQuestionIndex.value + 1) / quiz.questions.length) * 100)}%`; 
 });
 
+const backgroundMusic = new Audio(new URL('../assets/soundeffect/backgroundsong.mp3', import.meta.url).href);
+backgroundMusic.loop = true;
+
 function onSelectedOption(option) {
     if (option.correct) {
         numberOfCorrectAnswer.value++;
@@ -29,11 +32,21 @@ function onSelectedOption(option) {
 
     if (currentQuestionIndex.value === quiz.questions.length - 1) {
         showResult.value = true;
+        backgroundMusic.pause();
         return;
     }
 
     currentQuestionIndex.value++;
 }
+
+onMounted(() => {
+    backgroundMusic.play();
+});
+
+onUnmounted(() => {
+    backgroundMusic.pause();
+    backgroundMusic.currentTime = 0;
+})
 </script>
 
 <template>

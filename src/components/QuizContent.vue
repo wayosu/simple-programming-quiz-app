@@ -11,8 +11,10 @@ const {
     'barPercentage'
 ]);
 const emit = defineEmits(['selectedOption']);
+const clickSound = new Audio(new URL('../assets/soundeffect/click.wav', import.meta.url).href);
 
 function emitSelectedOption(option) {
+    clickSound.play();
     emit('selectedOption', option);
 }
 </script>
